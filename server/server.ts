@@ -5,8 +5,8 @@ import { Request, Response, NextFunction } from 'express';
 import mongoose from 'mongoose';
 
 //Conexão com o banco de dados.
-mongoose.connect('mongodb+srv://joaodb:joaoduarte123@cluster0.qtsmw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
-//process.env.MONGO_CONNECTION
+mongoose.connect(process.env.MONGO_CONNECTION, {useNewUrlParser: true, useUnifiedTopology: true});
+
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'Connection DB Error:'));
 db.once('open', function() {
