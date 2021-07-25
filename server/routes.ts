@@ -11,7 +11,7 @@ import { Receita5Controller } from "./controller/Receita5Controller";
 //Receitas que estão no banco de dados.
 import { NewReceita } from "./controller/NewReceitaController";
 import { DeleteReceitaController } from "./controller/DeleteReceitaController";
-import { AllReceitasDB } from "./controller/AllReceitasDB";
+import { AllReceitasDB } from "./controller/AllReceitasDBController";
 import { EditReceitaController } from "./controller/EditReceitaController";
 
 const router = Router();

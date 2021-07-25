@@ -54,6 +54,14 @@
     Delete:
         http://localhost:3000/delete-receita
 
+### Campos que as rotas Post, Put e Delete aceitam:
+
+    - title
+    - description
+    - ingredientes
+    - tempoDePreparo
+    - modoDePreparo
+
 ## String de conexão
 
     A string de conexão com o banco de dados é:
