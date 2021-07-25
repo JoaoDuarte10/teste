@@ -19,7 +19,7 @@
 
 ## Para iniciar o projeto
     1 - npm install || yarn install
-    2 - npm start-dev || yarn start-dev
+    2 - npm start-node || yarn start-node
 
     O projeto está configurado para rodar na porta 3000. Caso precise ser alterada a porta, basta editar o arquivo ( .env / PORT )
 
